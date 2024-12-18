@@ -8,6 +8,7 @@ a. Custom Java Object
 
 4. receive (RF)
 a. Custom Java Object
+b. if instanceof
 
 # Definitions
 
@@ -19,6 +20,7 @@ RF: Receive First
 #   CREATE
     a. 
         Message
+        MessageB
 #   SEND
     a. (S) 
         ClientSF: Line 13 to 32

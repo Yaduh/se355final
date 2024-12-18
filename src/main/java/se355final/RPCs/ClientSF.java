@@ -9,7 +9,5 @@ public class ClientSF {
             out.writeObject(msg);
             out.flush();
             System.out.println("Message sent to Server.");
-            Thread.sleep(1000);
-        
     }
 }
