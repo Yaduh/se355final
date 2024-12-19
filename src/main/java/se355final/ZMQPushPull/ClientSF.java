@@ -7,7 +7,7 @@ public class ClientSF {
      try(ZContext context = new ZContext()){
          ZMQ.Socket push = context.createSocket(SocketType.PUSH);
          push.connect("tcp://localhost:5000"); // Connect to Server at port 5000
-         String msg = "a";
+         String msg = "This is a message";
          
              System.out.println("Message" + msg + " sent to Server.");
              push.send(msg);

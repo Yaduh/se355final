@@ -1,6 +1,6 @@
 # COMMAND TO CREATE THE PROTO FILES:
 
-    protoc --java_out=\src\main\java\se355final\ProtobufRPCs\ .\src\main\java\se355final\ProtobufRPCs\MessageService.proto
+    protoc --java_out=.\src\main\java\se355final\ProtobufRPCs .\src\main\java\se355final\MessageService.proto
 
     you can alternatively place a '.' if you're in the directory that you want the files to be created in
     '.' means current directory 
