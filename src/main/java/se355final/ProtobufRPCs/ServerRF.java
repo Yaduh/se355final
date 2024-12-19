@@ -3,8 +3,6 @@ package se355final.ProtobufRPCs;
 import java.io.*;
 import java.net.*;
 
-import se355final.ProtobufRPCs.MessageService.Message;
-
 public class ServerRF {
     public static void main(String...args) throws Exception{
      ServerSocket server = new ServerSocket(5000); // Server at port 5000

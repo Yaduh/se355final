@@ -2,8 +2,6 @@ package se355final.ProtobufRPCs;
 import java.io.*;
 import java.net.*;
 
-import se355final.ProtobufRPCs.MessageService.Message;
-
 public class ClientSF {
     public static void main(String[] args) throws Exception {
         Socket client = new Socket("localhost", 5000); // Connected to Server at port 5000
